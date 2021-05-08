@@ -1,0 +1,736 @@
+<?xml version = '1.0' encoding = 'windows-1252' ?>
+<XMI xmi.version = '1.2' xmlns:CWMTFM = 'org.omg.xmi.namespace.CWMTFM' xmlns:CWM = 'org.omg.xmi.namespace.CWM'
+  xmlns:CWMRDB = 'org.omg.xmi.namespace.CWMRDB' xmlns:CWMOLAP = 'org.omg.xmi.namespace.CWMOLAP'
+  timestamp = 'Sat May 08 03:50:49 PDT 2021'>
+  <XMI.header>
+    <XMI.documentation>
+      <XMI.exporter>Netbeans XMI Writer</XMI.exporter>
+      <XMI.exporterVersion>1.0</XMI.exporterVersion>
+    </XMI.documentation>
+  </XMI.header>
+  <XMI.content>
+    <CWMRDB:SQLSimpleType xmi.id = 'a1' name = 'NUMBER' isAbstract = 'false'
+      typeNumber = '2'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a2' name = 'FLOAT' isAbstract = 'false'
+      typeNumber = '6'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a3' name = 'INT' isAbstract = 'false' typeNumber = '4'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a4' name = 'CHAR' isAbstract = 'false' typeNumber = '1'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a5' name = 'NCHAR' isAbstract = 'false'
+      typeNumber = '-15'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a6' name = 'VARCHAR' isAbstract = 'false'
+      typeNumber = '12'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a7' name = 'VARCHAR2' isAbstract = 'false'
+      typeNumber = '12'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a8' name = 'NVARCHAR' isAbstract = 'false'
+      typeNumber = '-15'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a9' name = 'NVARCHAR2' isAbstract = 'false'
+      typeNumber = '-15'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a10' name = 'DATE' isAbstract = 'false'
+      typeNumber = '91'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a11' name = 'TIMESTAMP' isAbstract = 'false'
+      typeNumber = '91'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a12' name = 'CLOB' isAbstract = 'false'
+      typeNumber = '2005'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a13' name = 'BLOB' isAbstract = 'false'
+      typeNumber = '2004'/>
+    <CWMRDB:SQLSimpleType xmi.id = 'a14' name = 'BIGINT' isAbstract = 'false'
+      typeNumber = '8'/>
+    <CWMRDB:Schema xmi.id = 'a15' name = 'CMX_ORS'>
+      <CWM:Namespace.ownedElement>
+        <CWMRDB:Table xmi.id = 'a16' name = 'C_B_CUSTOMER' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Namespace.ownedElement>
+            <CWMRDB:PrimaryKey xmi.id = 'a17' name = 'SVR1_1I12'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a18'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:PrimaryKey>
+          </CWM:Namespace.ownedElement>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a19' name = 'CUST_STATUS' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '5'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a20' name = 'DOB' precision = '0' scale = '0' isNullable = 'columnNullable'
+              length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a10'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a21' name = 'DIRTY_IND' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a22' name = 'LAST_ROWID_SYSTEM' precision = '0'
+              scale = '0' isNullable = 'columnNoNulls' length = '14'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a4'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a23' name = 'INTERACTION_ID' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a24' name = 'DELETED_IND' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a25' name = 'CONSOLIDATION_IND' precision = '0'
+              scale = '0' isNullable = 'columnNoNulls' length = '0'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a26' body = '4'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a27' name = 'DELETED_DATE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a28' name = 'DELETED_BY' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a29' name = 'CREATE_DATE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a30' body = 'CURRENT_TIMESTAMP'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a31' name = 'CREATOR' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a32' body = 'CMX'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a33' name = 'CM_DIRTY_IND' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a34' name = 'LAST_UPDATE_DATE' precision = '0'
+              scale = '0' isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a35' name = 'UPDATED_BY' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a18' name = 'ROWID_OBJECT' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '14'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a4'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a36' name = 'HUB_STATE_IND' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a37' body = '1'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a38' name = 'LAST_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a39' name = 'CUST_TYPE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a40' name = 'CUST_CLASS' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '10'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a41' name = 'FIRST_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a42' name = 'CUST_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a43' name = 'MIDDLE_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:Table xmi.id = 'a44' name = 'C_B_PASSENGERS' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Namespace.ownedElement>
+            <CWMRDB:PrimaryKey xmi.id = 'a45' name = 'SVR1_2SBP'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a46'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:PrimaryKey>
+          </CWM:Namespace.ownedElement>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a47' name = 'P_ID' precision = '38' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a1'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a48' name = 'DOB' precision = '0' scale = '0' isNullable = 'columnNullable'
+              length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a10'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a49' name = 'SEX' precision = '0' scale = '0' isNullable = 'columnNullable'
+              length = '20'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a50' name = 'ADDRESS' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '200'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a51' name = 'PH_NO' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a52' name = 'PAN_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a53' name = 'PASSPORT_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a54' name = 'CREATE_DATE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a55' body = 'CURRENT_TIMESTAMP'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a56' name = 'CREATOR' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a57' body = 'CMX'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a46' name = 'ROWID_OBJECT' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '14'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a4'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a58' name = 'CM_DIRTY_IND' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a59' name = 'INTERACTION_ID' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a60' name = 'HUB_STATE_IND' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a61' body = '1'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a62' name = 'LAST_ROWID_SYSTEM' precision = '0'
+              scale = '0' isNullable = 'columnNoNulls' length = '14'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a4'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a63' name = 'DIRTY_IND' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a64' name = 'DELETED_BY' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a65' name = 'DELETED_DATE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a66' name = 'CONSOLIDATION_IND' precision = '0'
+              scale = '0' isNullable = 'columnNoNulls' length = '0'>
+              <CWM:Attribute.initialValue>
+                <CWM:Expression xmi.id = 'a67' body = '4'/>
+              </CWM:Attribute.initialValue>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a68' name = 'DELETED_IND' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a3'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a69' name = 'UPDATED_BY' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a70' name = 'LAST_UPDATE_DATE' precision = '0'
+              scale = '0' isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a71' name = 'NAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:Table xmi.id = 'a72' name = 'C_L_CUSTOMER' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a73' name = 'SRC_ROWID' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'/>
+            <CWMRDB:Column xmi.id = 'a74' name = 'LAST_UPDATE_DATE' precision = '0'
+              scale = '0' isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:Table xmi.id = 'a75' name = 'C_L_PASSENGERS_DB' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Namespace.ownedElement>
+            <CWMRDB:UniqueConstraint xmi.id = 'a76'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a77'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:UniqueConstraint>
+            <CWMRDB:UniqueConstraint xmi.id = 'a78'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a79'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:UniqueConstraint>
+          </CWM:Namespace.ownedElement>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a80' name = 'SOURCE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a77' name = 'P_ID' precision = '38' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a1'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a79' name = 'PAN_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a81' name = 'PASSPORT_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a82' name = 'SEX' precision = '0' scale = '0' isNullable = 'columnNullable'
+              length = '20'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a83' name = 'DOB' precision = '0' scale = '0' isNullable = 'columnNullable'
+              length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a10'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a84' name = 'PH_NO' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a85' name = 'ADDRESS' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '200'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a86' name = 'LNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a87' name = 'MNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a88' name = 'FNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a89' name = 'LAST_UPDATE_DATE' precision = '0'
+              scale = '0' isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a90' name = 'SRC_ROWID' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'/>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:Table xmi.id = 'a91' name = 'C_L_PASSENGERS_TXT' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Namespace.ownedElement>
+            <CWMRDB:UniqueConstraint xmi.id = 'a92'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a93'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:UniqueConstraint>
+            <CWMRDB:UniqueConstraint xmi.id = 'a94'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a95'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:UniqueConstraint>
+          </CWM:Namespace.ownedElement>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a96' name = 'SRC_ROWID' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'/>
+            <CWMRDB:Column xmi.id = 'a97' name = 'LAST_UPDATE_DATE' precision = '0'
+              scale = '0' isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a98' name = 'PASSPORT_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a99' name = 'FNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a100' name = 'MNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a95' name = 'PAN_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a101' name = 'PH_NO' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a102' name = 'DOB' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a10'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a103' name = 'LNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a104' name = 'ADDRESS' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '200'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a93' name = 'P_ID' precision = '38' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a1'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a105' name = 'SEX' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a106' name = 'SOURCE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:Table xmi.id = 'a107' name = 'C_L_PASSENGERS_TXT2' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Namespace.ownedElement>
+            <CWMRDB:UniqueConstraint xmi.id = 'a108'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a109'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:UniqueConstraint>
+            <CWMRDB:UniqueConstraint xmi.id = 'a110'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a111'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:UniqueConstraint>
+          </CWM:Namespace.ownedElement>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a112' name = 'SRC_ROWID' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'/>
+            <CWMRDB:Column xmi.id = 'a113' name = 'LAST_UPDATE_DATE' precision = '0'
+              scale = '0' isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a11'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a114' name = 'FNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a115' name = 'LNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a116' name = 'MNAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a109' name = 'P_ID' precision = '38' scale = '0'
+              isNullable = 'columnNoNulls' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a1'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a111' name = 'PAN_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a117' name = 'PASSPORT_NUMBER' precision = '0'
+              scale = '0' isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a118' name = 'SOURCE' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a119' name = 'PH_NO' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a120' name = 'ADDRESS' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '200'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a121' name = 'SEX' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a122' name = 'DOB' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '0'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a10'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:Table xmi.id = 'a123' name = 'C_B_CUSTOMER_EMI' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Namespace.ownedElement>
+            <CWMRDB:PrimaryKey xmi.id = 'a124' name = 'SVR1_1I1L'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a125'/>
+                <CWMRDB:Column xmi.idref = 'a126'/>
+                <CWMRDB:Column xmi.idref = 'a127'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:PrimaryKey>
+          </CWM:Namespace.ownedElement>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a125' name = 'SOURCE_KEY' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a126' name = 'SOURCE_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a127' name = 'FILE_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:Table xmi.id = 'a128' name = 'C_B_PASSENGERS_EMI' isAbstract = 'false'
+          isTemporary = 'false' isSystem = 'false'>
+          <CWM:Namespace.ownedElement>
+            <CWMRDB:PrimaryKey xmi.id = 'a129' name = 'SVR1_2SC8'>
+              <CWM:UniqueKey.feature>
+                <CWMRDB:Column xmi.idref = 'a130'/>
+                <CWMRDB:Column xmi.idref = 'a131'/>
+                <CWMRDB:Column xmi.idref = 'a132'/>
+              </CWM:UniqueKey.feature>
+            </CWMRDB:PrimaryKey>
+          </CWM:Namespace.ownedElement>
+          <CWM:Classifier.feature>
+            <CWMRDB:Column xmi.id = 'a133' name = 'PERSON_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '51'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a134' name = 'DOB' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '51'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a130' name = 'SOURCE_KEY' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a132' name = 'FILE_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a131' name = 'SOURCE_NAME' precision = '0' scale = '0'
+              isNullable = 'columnNoNulls' length = '50'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a135' name = 'SEX' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '21'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+            <CWMRDB:Column xmi.id = 'a136' name = 'PAN_NUMBER' precision = '0' scale = '0'
+              isNullable = 'columnNullable' length = '51'>
+              <CWM:StructuralFeature.type>
+                <CWMRDB:SQLSimpleType xmi.idref = 'a6'/>
+              </CWM:StructuralFeature.type>
+            </CWMRDB:Column>
+          </CWM:Classifier.feature>
+        </CWMRDB:Table>
+        <CWMRDB:View xmi.id = 'a137' name = 'IUY' isAbstract = 'false' isReadOnly = 'false'
+          checkOption = 'false'>
+          <CWMRDB:View.queryExpression>
+            <CWM:QueryExpression xmi.id = 'a138' body = 'SELECT C_B_PASSENGERS.CREATE_DATE, C_B_PASSENGERS.CREATOR, C_B_PASSENGERS.ROWID_OBJECT, C_B_PASSENGERS.CM_DIRTY_IND, C_B_PASSENGERS.INTERACTION_ID, C_B_PASSENGERS.LAST_ROWID_SYSTEM, C_B_PASSENGERS.DIRTY_IND, C_B_PASSENGERS.DELETED_BY, C_B_PASSENGERS.DELETED_DATE, C_B_PASSENGERS.CONSOLIDATION_IND, C_B_PASSENGERS.DELETED_IND, C_B_PASSENGERS.UPDATED_BY, C_B_PASSENGERS.LAST_UPDATE_DATE, C_B_PASSENGERS.P_ID, C_B_PASSENGERS.PASSPORT_NUMBER, C_B_PASSENGERS.PAN_NUMBER, C_B_PASSENGERS.NAME, C_B_PASSENGERS.ADDRESS, C_B_PASSENGERS.PH_NO, C_B_PASSENGERS.DOB, C_B_PASSENGERS.SEX FROM C_B_PASSENGERS'
+              language = 'SQL'/>
+          </CWMRDB:View.queryExpression>
+        </CWMRDB:View>
+      </CWM:Namespace.ownedElement>
+    </CWMRDB:Schema>
+  </XMI.content>
+</XMI>
